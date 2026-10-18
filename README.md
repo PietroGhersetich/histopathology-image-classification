@@ -8,7 +8,7 @@ This repository contains the deep learning solution developed by **NoNameTeam** 
 
 This project tackles the classification of diseased human tissue samples into four breast cancer molecular subtypes: **Luminal A**, **Luminal B**, **HER2(+)**, and **Triple Negative**. The dataset consists of 1,272 high-resolution histological images of varying dimensions, each paired with a binary Region-of-Interest (ROI) mask highlighting the diagnostic tissue areas, evaluated according to the **Weighted F1-Score**.
 
-![Pipeline Overview](assets/sample_analysis.png)
+![Sample Overview](assets/sample_analysis.png)
 
 Our approach prioritizes **mask-guided spatial tiling**, **domain-specific self-supervised Vision Transformers (Phikon)**, and **multi-view Test-Time Augmentation (TTA)**, demonstrating that preserving cellular resolution and leveraging pathology-pretrained representations are critical for small, imbalanced medical datasets.
 
@@ -85,10 +85,14 @@ Performance comparison across our primary architectures on the stratified valida
 
 ```text
 .
-├── AN2DL_NoNameTeam_Challenge2_notebook_best_phikon.ipynb  # ★ Final Phikon ViT pipeline (Transfer Learning, Fine-Tuning & Multi-View TTA)
-├── AN2DL_NoNameTeam_Challenge1_notebook_resnet.ipynb       # ResNet50 pipeline (Transfer Learning, Layer4 Fine-Tuning & 50-View TTA)
-├── AN2DL_NoNameTeam_Challenge2_Report.pdf                  # 4-page technical report (IEEE format)
-└── README.md                                               # Project documentation
+├── assets/
+├── notebooks/
+│   ├── best_model_phikon.ipynb                           # ★ Final Phikon ViT pipeline (Transfer Learning, Fine-Tuning & Multi-View TTA)
+│   └── best_model_resnet.ipynb                           # ResNet50 baseline pipeline
+├── report/
+│   └── histopathology_classification_report.pdf          # 4-page technical report
+├── LICENSE                                               # MIT License
+└── README.md                                             # Project documentation
 
 ```
 
