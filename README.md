@@ -87,7 +87,7 @@ Performance comparison across our primary architectures on the stratified valida
 .
 ├── assets/
 ├── notebooks/
-│   ├── best_model_phikon.ipynb                           # ★ Final Phikon ViT pipeline (Transfer Learning, Fine-Tuning & Multi-View TTA)
+│   ├── best_model_phikon.ipynb                           # Final Phikon ViT pipeline (Transfer Learning, Fine-Tuning & Multi-View TTA)
 │   └── best_model_resnet.ipynb                           # ResNet50 baseline pipeline
 ├── report/
 │   └── histopathology_classification_report.pdf          # 4-page technical report
