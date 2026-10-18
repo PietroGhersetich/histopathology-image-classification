@@ -2,6 +2,8 @@
 
 This repository contains the deep learning solution developed by **NoNameTeam** for the **Artificial Neural Networks and Deep Learning (AN2DL)** Second Challenge at **Politecnico di Milano** (A.Y. 2025/2026).
 
+The [Report](.report/histopathology_classification_report.pdf) found in this Repository contains more details on the work done by the Team.
+
 ---
 
 ## Overview
